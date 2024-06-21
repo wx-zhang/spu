@@ -1,0 +1,10 @@
+method: lwf
+
+
+batch_size: 64
+
+distill_loss: visual
+lr: 1e-6
+epochs: 5
+tem: 5.0
+scale: 0.01

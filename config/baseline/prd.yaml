@@ -1,0 +1,15 @@
+
+
+
+method: prd
+
+
+distill_loss: text
+lr: 1e-6
+epochs: 5
+tem: 1.0
+scale: 0.1
+
+
+# training 
+batch_size: 64

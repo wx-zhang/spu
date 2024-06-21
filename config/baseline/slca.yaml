@@ -1,0 +1,5 @@
+head_lr_scale: 5
+ca_epochs: 3
+logit_norm: 0.1
+
+method: slca

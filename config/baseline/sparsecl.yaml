@@ -1,0 +1,18 @@
+method: sparsecl
+pho: 0.001
+prune_ratio: 0.05
+update_bias: False
+mask_init: 0s
+mask_scale: 1e-2
+mask_strategy: add
+lambda: 0.5
+retrain_mask_pattern: weight
+retrain_mask_sparsity: -1.0
+sp_mask_update_freq: 5
+sp_update_init_method: zero
+upper_bound: [0.94,0.95,0.95]
+lower_bound: [0.95,0.96,0.95]
+mask_update_decay_epoch: [0, 5, 15]
+epochs: 20
+lr: 5e-6
+remove_data_epoch: 10

@@ -1,0 +1,10 @@
+method: spu
+
+score_batch_percentage: 0.25 # percentage of the total number of batch to calculate the importance  score
+
+selection_rate: 0.1 
+
+# spcify which layer to full finetune, selective finetune and freeze
+full_update_param: ['bias','visual.proj']
+finetune_proj: True # whether to finetune the projection layer of visual feature to text space
+edit_layer: 'c_fc' # specific transformer layer in every block to finetune

@@ -1,0 +1,45 @@
+defaults:
+  - _self_
+  - baseline@_here_: spu
+
+
+
+# log and debug
+name:
+logs: ./logs/
+report_to: wandb
+wandb_project: clip-continual-learning
+debug: False
+evaluation: False # only evaluate the model
+no_eval: False # do not evaluate the model
+print_frequency: 10
+save_ckpt: False
+
+# device 
+device: "cuda:0"
+seed: 0
+
+# dataset
+data: ./data/ # path to store datasets
+dataset: cars
+imagenet_root: ./data/imagenet
+
+# model
+input: 224
+model_source: clip
+model: 'ViT-B/16'
+model_root: ./models/
+
+# continual learning setting 
+joint: False
+num_tasks: 10
+buffer_size: 1.0 # 1.0 means 100% of the hard code buffer size
+balanced_buffer: True
+
+# optimization 
+batch_size: 128
+workers: 6
+lr: 7.5e-6
+wd: 0.2
+scheduler: True
+epochs: 10

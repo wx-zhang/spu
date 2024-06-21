@@ -1,0 +1,8 @@
+method: loraewc
+model_source: hf-lora
+
+importance_max_normalize: True
+lora_rank: 8
+
+cc12m_root: /path/to/cc12m
+scale: 10.0

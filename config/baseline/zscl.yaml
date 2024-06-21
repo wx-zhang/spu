@@ -1,0 +1,7 @@
+cc12m_root: /path/to/cc12m
+method: zscl
+batch_size: 64
+distill_scale: 1.0
+buffer_size: 0.0
+lr: 1e-6
+avg_freq: 10
