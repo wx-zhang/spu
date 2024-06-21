@@ -1,5 +1,12 @@
 # Overcoming Generic Knowledge Loss with Selective Parameter Update (CVPR'24)
 
+<a target="_blank" href="https://arxiv.org/pdf/2308.12462">
+<img style="height:22pt" src="https://img.shields.io/badge/-Paper-red?style=flat&logo=arxiv">
+</a><a target="_blank" href="https://github.com/wx-zhang/spu">
+<img style="height:22pt" src="https://img.shields.io/badge/-Code-black?style=flat&logo=github"></a>
+<a target="_blank" href="https://github.com/wx-zhang/spu">
+<img style="height:22pt" src="https://img.shields.io/badge/-Project Page-white?style=flat&color=%236f91b6"></a>
+<br>
 
 
 <span style="color:black; font-size: 14pt; font-family: Roboto, Helvetica, Arial, Heveltica Neue, sans-serif">
@@ -13,13 +20,6 @@
      <br>
 
 
-<a target="_blank" href="https://arxiv.org/pdf/2308.12462">
-<img style="height:22pt" src="https://img.shields.io/badge/-Paper-red?style=flat&logo=arxiv">
-</a><a target="_blank" href="https://github.com/wx-zhang/spu">
-<img style="height:22pt" src="https://img.shields.io/badge/-Code-black?style=flat&logo=github"></a>
-<a target="_blank" href="https://github.com/wx-zhang/spu">
-<img style="height:22pt" src="https://img.shields.io/badge/-Project Page-white?style=flat&color=%236f91b6"></a>
-<br>
 
 Use this repo to reproduce the results of our methods as well as the baselines.
 
