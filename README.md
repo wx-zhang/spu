@@ -4,7 +4,7 @@
 <img style="height:22pt" src="https://img.shields.io/badge/-Paper-red?style=flat&logo=arxiv">
 </a><a target="_blank" href="https://github.com/wx-zhang/spu">
 <img style="height:22pt" src="https://img.shields.io/badge/-Code-black?style=flat&logo=github"></a>
-<a target="_blank" href="https://github.com/wx-zhang/spu">
+<a target="_blank" href="https://wx-zhang.github.io/spu/html">
 <img style="height:22pt" src="https://img.shields.io/badge/-Project Page-white?style=flat&color=%236f91b6"></a>
 <br>
 
