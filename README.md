@@ -64,3 +64,13 @@ python main.py \
     dataset=[cifar100 | cub | cars | aircraft | gtsrb | birdsnap ] \
     baseline@_global_=[flyp | er | lwf | mas | prd | loraewc | slca | sparsecl | spg | zscl]
 ```
+
+### Citation
+```
+@inproceedings{zhang2024overcoming,
+          title={Overcoming Generic Knowledge Loss with Selective Parameter Update},
+          author={Zhang, Wenxuan and Janson, Paul and Aljundi, Rahaf and Elhoseiny, Mohamed},
+          journal={CVPR},
+          year={2024}
+        }
+```
