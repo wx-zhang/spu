@@ -70,7 +70,7 @@ python main.py \
 @inproceedings{zhang2024overcoming,
           title={Overcoming Generic Knowledge Loss with Selective Parameter Update},
           author={Zhang, Wenxuan and Janson, Paul and Aljundi, Rahaf and Elhoseiny, Mohamed},
-          journal={CVPR},
+          booktitle={CVPR},
           year={2024}
         }
 ```
