@@ -35,7 +35,7 @@ Use the following to install the learning rate scheduler
 ```
 pip install 'git+https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup'
 ```
-## Reproduce Results
+## Reproduce Our Results
 ### Dataset
 Prepare the datasets by following the instructions in the `data` folder.
 - CIFAR 100, FGVC-Aircraft, GTSRB: Automatically downloaded by torchvision.
@@ -49,7 +49,7 @@ Prepare the datasets by following the instructions in the `data` folder.
 python main.py dataset=[cifar100 | cub | cars | aircraft | gtsrb | birdsnap ]
 ```
 
-### Reproduce baselines
+## Run baselines
 Supported baselines: 
 - `flyp`: Finetune like you pretrain [[paper](https://arxiv.org/abs/2212.00638)]
 - `er`: Experimence replay [[paper](https://arxiv.org/abs/1902.10486)]
@@ -66,6 +66,24 @@ Supported baselines:
 python main.py \
     dataset=[cifar100 | cub | cars | aircraft | gtsrb | birdsnap ] \
     baseline@_global_=[flyp | er | lwf | mas | prd | loraewc | slca | sparsecl | spg | zscl]
+```
+
+### Supported features
+For replay based method, use `balanced_buffer=False` to apply uniform sampling (uniformly from buffer and the current task)
+```
+python main.py dataset=your_dataset baseline@_global_=your_baseline balanced_buffer=False
+```
+Use `joint=True` for joint training
+```
+python main.py dataset=your_dataset baseline@_global_=your_baseline joint=True
+```
+Adjust `buffer_size` to scaling down or up the buffer size 
+```
+python main.py dataset=your_dataset baseline@_global_=your_baseline buffer_size=0.5
+```
+Adjust `num_tasks` to adjust the number of split of dataset 
+```
+python main.py dataset=your_dataset baseline@_global_=your_baseline num_tasks=20
 ```
 ## Acknowledgement
 - Learning rate scheduler: [Cosine Annealing with Warmup for PyTorch](https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup)
