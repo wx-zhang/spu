@@ -155,7 +155,6 @@ dependencies:
     - clip-benchmark==1.4.0
     - comm==0.1.2
     - contourpy==1.0.7
-    - cosine-annealing-warmup==2.0
     - cycler==0.11.0
     - datasets==2.11.0
     - debugpy==1.6.6
