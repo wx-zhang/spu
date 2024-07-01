@@ -67,8 +67,12 @@ python main.py \
     dataset=[cifar100 | cub | cars | aircraft | gtsrb | birdsnap ] \
     baseline@_global_=[flyp | er | lwf | mas | prd | loraewc | slca | sparsecl | spg | zscl]
 ```
+## Acknowledgement
+- Learning rate scheduler: [Cosine Annealing with Warmup for PyTorch](https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup)
+- CLIP backbone: [OpenCLIP](https://github.com/mlfoundations/open_clip)
+- Classic continual learning methods: [Avalanche](https://github.com/ContinualAI/avalanche)
 
-### Citation
+## Citation
 ```
 @inproceedings{zhang2024overcoming,
           title={Overcoming Generic Knowledge Loss with Selective Parameter Update},
