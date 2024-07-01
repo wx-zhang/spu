@@ -31,7 +31,10 @@ Use this repo to reproduce the results of our methods as well as the baselines.
 conda env create -f environment.yml
 conda activate clip
 ``` 
-
+Use the following to install the learning rate scheduler 
+```
+pip install 'git+https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup'
+```
 ## Reproduce Results
 ### Dataset
 Prepare the datasets by following the instructions in the `data` folder.
